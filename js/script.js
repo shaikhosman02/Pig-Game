@@ -1,4 +1,4 @@
-'use strict';
+'use strict';    
 
 const score0El = document.querySelector('#score--0');
 const score1El = document.querySelector('#score--1');
@@ -42,7 +42,7 @@ btnRoll.addEventListener('click', function () {
     if (playing) {
         const diceVal = Math.trunc(Math.random() * 6) + 1;
         diceEL.classList.remove('hidden');
-        diceEL.src = `dice-${diceVal}.png`
+        diceEL.src = `images/dice-${diceVal}.png`
         if (diceVal !== 1) {
             currScore += diceVal;
             document.getElementById(`current--${activePlayer}`).textContent = currScore;
