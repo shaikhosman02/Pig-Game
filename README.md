@@ -11,7 +11,7 @@ Welcome to the Pig Game! This is a simple two-player game where players take tur
 - [Contributing](#contributing)
 
 ## Demo
-[Play the Pig Game](#) - Insert a link to the live demo of the game.
+[Play the Pig Game](https://shaikhosman02.github.io/Pig-Game/) - 
 
 ## Rules
 1. The game consists of two players: Player 1 and Player 2.
