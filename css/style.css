@@ -203,3 +203,8 @@ main {
     font-size: 32.5%;
   }
 }
+@media (max-width: 538px) {
+  html {
+    font-size: 30.5%;
+  }
+}
