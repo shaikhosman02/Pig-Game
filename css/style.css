@@ -209,36 +209,78 @@ main {
   }
   main {
     flex-direction: column;
-    height: 100rem;
+    height: 110rem;
     width: 85rem;
   }
   .btn--new {
     top: 2rem;
   }
   .btn--hold {
-    top: 52.1rem;
+    top: 52.7rem;
+    left: 64rem;
   }
   .btn--roll {
-    top: 43.3rem;
+    left: 19rem;
+    top: 52.2rem;
+  }
+  .dice {
+    top: 49.9rem;
   }
 }
 @media (max-width: 434px) {
+  .btn--hold {
+    top: 52.7rem;
+    left: 57rem;
+  }
+  .btn--roll {
+    /* padding: 1.2rem; */
+    left: 16rem;
+    top: 52.2rem;
+  }
   main {
     width: 75rem;
   }
 }
 @media (max-width: 388px) {
+  .btn--roll {
+    left: 13rem;
+    top: 52.2rem;
+  }
+  .btn--hold {
+    top: 52.7rem;
+    left: 50rem;
+  }
   main {
     width: 65rem;
   }
 }
 @media (max-width: 338px) {
+  .btn--hold {
+    top: 52.7rem;
+    left: 45rem;
+  }
   main {
     width: 60rem;
   }
 }
 @media (max-width: 310px) {
+  .btn--roll {
+    padding: 0.5rem;
+    left: 10rem;
+    top: 52.8rem;
+  }
+  .btn--hold {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    top: 52.7rem;
+    left: 38rem;
+  }
   main {
     width: 50rem;
+  }
+}
+@media (max-width: 240px) {
+  .btn::first-letter {
+    font-size: 1.9rem;
   }
 }
