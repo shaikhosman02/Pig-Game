@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -207,58 +207,38 @@ main {
   html {
     font-size: 30.5%;
   }
-  main{
+  main {
     flex-direction: column;
     height: 100rem;
     width: 85rem;
   }
-  .btn--new{
+  .btn--new {
     top: 2rem;
   }
   .btn--hold {
     top: 52.1rem;
-}
-.btn--roll {
-  top: 43.3rem;
-}
+  }
+  .btn--roll {
+    top: 43.3rem;
+  }
 }
 @media (max-width: 434px) {
-  html {
-    font-size: 30.5%;
-  }
-  main{
-    flex-direction: column;
-    height: 100rem;
+  main {
     width: 75rem;
   }
 }
-  @media (max-width: 388px) {
-    html {
-      font-size: 30.5%;
-    }
-    main{
-      flex-direction: column;
-      height: 100rem;
-      width: 65rem;
-    }
+@media (max-width: 388px) {
+  main {
+    width: 65rem;
   }
-  @media (max-width: 338px) {
-    html {
-      font-size: 30.5%;
-    }
-    main{
-      flex-direction: column;
-      height: 100rem;
-      width: 60rem;
-    }
+}
+@media (max-width: 338px) {
+  main {
+    width: 60rem;
   }
-  @media (max-width: 310px) {
-    html {
-      font-size: 30.5%;
-    }
-    main{
-      flex-direction: column;
-      height: 100rem;
-      width: 50rem;
-    }
+}
+@media (max-width: 310px) {
+  main {
+    width: 50rem;
   }
+}
