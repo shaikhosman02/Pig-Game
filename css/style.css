@@ -207,4 +207,58 @@ main {
   html {
     font-size: 30.5%;
   }
+  main{
+    flex-direction: column;
+    height: 100rem;
+    width: 85rem;
+  }
+  .btn--new{
+    top: 2rem;
+  }
+  .btn--hold {
+    top: 52.1rem;
 }
+.btn--roll {
+  top: 43.3rem;
+}
+}
+@media (max-width: 434px) {
+  html {
+    font-size: 30.5%;
+  }
+  main{
+    flex-direction: column;
+    height: 100rem;
+    width: 75rem;
+  }
+}
+  @media (max-width: 388px) {
+    html {
+      font-size: 30.5%;
+    }
+    main{
+      flex-direction: column;
+      height: 100rem;
+      width: 65rem;
+    }
+  }
+  @media (max-width: 338px) {
+    html {
+      font-size: 30.5%;
+    }
+    main{
+      flex-direction: column;
+      height: 100rem;
+      width: 60rem;
+    }
+  }
+  @media (max-width: 310px) {
+    html {
+      font-size: 30.5%;
+    }
+    main{
+      flex-direction: column;
+      height: 100rem;
+      width: 50rem;
+    }
+  }
